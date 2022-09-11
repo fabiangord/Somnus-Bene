@@ -1,0 +1,432 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.psuperior1 {
+    background: #2d132c;
+    width: 100%;
+    height: 150px;
+
+
+}
+
+.tituloprincipal {
+    color: #fff;
+    justify-content: center;
+    display: flex;
+    margin-left: 60px;
+    position: absolute;
+    width: 120px;
+
+}
+
+.modtitulo {
+    background: transparent;
+
+}
+
+.navmenu {
+    background: #2d132c;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    align-items: center
+
+}
+.navmenu ul{
+    width: 100%;
+}
+.navmenu ul li{
+    display: inline-block;
+    padding: 10px;
+    background-color: #2d132c;
+    cursor: pointer;
+    width: 15.66%;
+    padding-left: 50px;
+    border-radius: 20px;
+}
+.navmenu ul li ul{
+    display: none;
+    z-index: 100;
+    width: 100px;
+}
+.navmenu ul li ul li{
+    width: 100%;
+    padding-right: 150px;
+    text-align: center;
+}
+
+.navmenu ul li:hover ul{
+    display: block;
+    position:absolute;
+    width: 100px;
+    top: 200px; 
+    
+   
+}
+li{
+   padding: 30px;
+}
+
+.navegacion {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+   padding-bottom: 16px;
+    align-items: center;
+   
+}
+.iconod{
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    float: right;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    padding-right: 50px;
+}
+
+
+.pinferior1 {
+    width: 100%;
+    height: 1030px;
+    background: #801336;
+}
+
+.slider {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 40px;
+    
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite alternate;
+    animation-timing-function: linear;
+}
+
+.slider li {
+    list-style: none;
+    width: 100%;
+}
+
+.slider img {
+    width: 100%;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0%;}
+    20% {margin-left: 0%;}
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    75% {margin-left: -300%}
+    100% {margin-left: -300%;}
+}
+.tituloinf1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+/* -------------------------------VENTANA 1 ------------------------------ */
+
+.ventana2 {
+    background: #fff;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.titulo2 {
+    font-size: 30px;
+    margin-top: 40px;
+}
+.contimag2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;  
+}
+.contimag2 figure img {
+    border-radius: 100%;
+     display: flex;  
+     width: 100%;
+     height: 100%;
+     transition: all 500ms ease-out; 
+}
+.contimag2 figure{
+    width: 200px;
+    overflow: hidden;
+    position: relative;
+}
+
+.contimag2 figure .imgc{
+    background: #801336;
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background: rgba(128,19,54,0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 100%;
+
+}
+.contimag2 figure:hover>.imgc{
+    opacity: 1;
+    visibility: visible;
+}
+.contimag2 figure:hover>i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ttimagen2 {
+    margin-top: 20px;
+    text-align: center;
+}
+#icon1{
+    color: #fff;
+    font-size: 30px;
+    display: flex;
+    float: right;
+    align-items: center;
+    position: absolute;
+    right: 35px;
+    top: 80px;
+    padding-right: 50px;
+}
+
+/*---------------------------------VENTANA2----------------------------------------------------------*/
+.promociones {
+    width: 100%;
+    height: 630px;
+    background: #2d132c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo3mod {
+    color: #fff;
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+.hover2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin-bottom: 200px;
+}
+.hover2 figure{
+    position: relative;
+    width: 500px;
+    height: 380px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow:0px 15px 20px #801336;
+    cursor: pointer;
+}
+.hover2 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.hover2 figure .capa h1{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.hover2 figure .capa p{
+    margin-top: 50px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.hover2 figure .capa a{
+    background: #801336;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    width: 50px;
+    height: 30px;
+    border:2px solid black;
+    font-size: 20px;
+}
+.hover2 figure .capa{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    height: 100%;
+    background: rgba(128,19,54,0.7);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+    color: #fff;
+}
+.hover2 figure:hover > .capa{
+    opacity: 1;
+    visibility: visible;
+}
+.hover2 figure:hover > img{
+    transform: scale(1.3);
+}
+
+
+/* -------------------------------------------VENTANA3-------------------------------------------------- */
+.video {
+    width: 100%;
+    height: 930px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+/* ------------------------------------------------VENTANA4-------------------------------------------- */
+.section6{
+    background: #2d132c;
+    display: block;
+    justify-content: center;
+    width: 100%;
+    height: 1080px;
+}
+.blog {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 30px;
+    margin-left: 20px;
+    text-align: center;
+    
+}
+.blog h1{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 25px;
+}
+.parrafosec6{
+    margin-top: 30px;
+    color: #fff;
+    font-size: 20px;
+}
+.titulo4mod{
+    color: #fff;
+    padding-top: 30px;
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 40px;
+    
+}
+article{
+    padding-left: 100px;
+}
+aside{
+    width: 17.6%;
+    color: #fff;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 40px;
+
+   
+}
+.aside p{
+    padding-left: 20px;
+}
+.aside2 img{
+   width: 100%;
+}
+.aside2 p{
+    width: 100%;
+}
+.aside2{
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+.parrafo2aside{
+    justify-content: center;
+    margin: 10px 0px;
+    margin-left: 0;
+    margin-bottom: 30px;
+}
+hr{
+    color: #fff;
+}
+
+
+
+/*------------------------------------------------------VENTANA5-----------------------------------------*/
+.footer{
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+
+}
+.grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns:  repeat(3 1fr);
+    grid-gap: 50px;
+    padding: 45px  0px;
+}
+.box h4{
+    text-align: center;
+}
+.ultt{
+    width: 100%;
+    justify-content: center;
+}
+ .redsocial{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+ }
+.redsocial a{
+    display: flex row;
+    justify-content: center;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 10 px;
+    background-color: #2d132c;
+    color: antiquewhite;
+    text-align: center;
+    transition: all  500ms ease;
+}
+.grupo2{
+    background:#2d132c ;
+    color: white;
+    padding: 15px 0px;
+    text-align: center;
+    width: 100%;
+}
+
