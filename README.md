@@ -10,4 +10,4 @@ Link: https://fabiangord.github.io/Somnus-Bene/
 
 # Servidor de desarrollo
 
-Para ejecutar en el local debes clonar el repositorio y abrir el archivo index.html.
+Para ejecutar en el local debes clonar el repositorio y abrir el archivo index.html
